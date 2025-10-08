@@ -1,0 +1,58 @@
+/*Header*/
+.header {
+    width: 100vw;
+    height: 6rem;
+    background: linear-gradient(rgba(207, 31, 169, 0.5), rgba(207, 31, 169, 0.5)), url("bg-img.png");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header img {
+    width: 5rem;
+    height: 5rem;
+    display: block;
+}
+
+.title_header {
+    display: block;
+    margin: 0 1.5rem;
+}
+.title_header p, .title_header h1, .title_header h3 {
+    margin: 0;
+}
+
+/*Sticky Nav Bar*/
+#navbar {
+  position: sticky;
+  top: 0;
+  background-color: #D295BE;
+  width: 100vw;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+#navbar a:hover {
+  background-color: rgb(180, 119, 160);
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #E0BADE;
+  color: black;
+}
+
+
+
+.content p{
+    font-size: 1.25rem;
+}
